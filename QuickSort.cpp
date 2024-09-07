@@ -82,8 +82,8 @@ int main() {
     int tamaño, elemento;
     dataset >> tamaño;
 
-    vector<int> v1(tamaño);
-    for(auto it = v1.begin(); it != v1.end(); ++it){
+    vector<int> lista(tamaño);
+    for(auto it = lista.begin(); it != lista.end(); ++it){
         dataset >> elemento;
         *it = elemento;
     }
@@ -93,7 +93,7 @@ int main() {
     //Llamada del algoritmo de orednamiento y la medición de tiempo de este
     auto start = chrono::high_resolution_clock::now();
 
-    quickSort(v1, 0, tamaño - 1);
+    quickSort(lista, 0, tamaño - 1);
 
     auto end = chrono::high_resolution_clock::now();
     chrono::duration<double> duration = end -start;
@@ -101,7 +101,7 @@ int main() {
     //Impresión del tiempo en ordenar la lista y escritura del resultado en otro archivo
     cout << "\nTiempo en segundos: " << duration.count() << endl;
     
-    text_file("Res_dataset.txt",v1);
+    text_file("Res_dataset.txt",lista);
     
     return 0;
 }
