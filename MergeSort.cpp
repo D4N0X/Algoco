@@ -35,18 +35,14 @@ void merge(vector<int>& lista, int inicio, int medio, int final) {
         k++;
     }
 
-    // Si quedan elementos en L, los copiamos en lista
+    //Si faltan elementos, se agregan a la sublista fusionada
     while (i < n1) {
         lista[k] = L[i];
-        i++; 
-        k++;
+        i++; k++;
     }
-
-    // Si quedan elementos en R, los copiamos en lista
     while (j < n2) {
         lista[k] = R[j];
-        j++; 
-        k++;
+        j++; k++;
     }
 }
 
