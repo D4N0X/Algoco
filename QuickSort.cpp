@@ -10,10 +10,10 @@ int partition(vector<int>& arr, int inicio, int final) {
     -Descripción: Reorganiza los elementos de la sublista de manera que los menores al pivote queden a la izquierda y los mayores a la derecha.
     */
 
-    //Se busca el pivote, que será el elemento de la posición final de la lista
+    //Busca el pivote, que será el elemento de la posición final de la lista
     int pivot = arr[final];
 
-    //Se recorre la lista dejando i como el punto entre los números menores, junto al pivote y los mayores
+    //Recorre la lista dejando i como el punto entre los números menores, junto al pivote y los mayores
     int i = inicio - 1;
 
     for (int j = inicio; j <= final - 1; j++) {
