@@ -118,7 +118,7 @@ int main(){
     char Type;
     cin >> Type;
     int N, M;
-    if (toupper(Type == 'L')) {
+    if (toupper(Type) == 'L') {
         cout << "Escriba el tamaño de la lista: ";
         cin >> N;
         cout << "Creando datasets....." << endl;
