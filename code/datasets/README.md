@@ -6,4 +6,4 @@ siglas que se usaron, creados solamente con el fin de facilitar la escritura man
 - E: Matrices cuadradas de enteros de rango \[0,100]
 - F: Matrices identidad
 
-- eX: $10^X$ elementos
+- eX: $10^X$ elementos, si es matriz es $M_{\frac{X}{2} \times \frac{X}{2}}$
