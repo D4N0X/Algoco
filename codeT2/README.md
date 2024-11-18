@@ -1,1 +1,1 @@
-Para usar correctamente los algoritmos, se recomienda mover el contenido de las carpetas de costos y datasets hacia el directorio donde se encuentra el archivo.
+Para usar correctamente los algoritmos, se recomiendo mover todos los contenidos de los archivos "costos" y "datasets" hacia el directorio donde se encientran los algoritmos
